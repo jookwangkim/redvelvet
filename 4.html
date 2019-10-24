@@ -1,27 +1,92 @@
 <!doctype html>
+
+
 <html>
 <head>
-  <title>REDVELVET - JOY</title>
-  <meta charset="utf-8>"
+  <title>RED VELVET - JOY</title>
+  <meta charset="utf-8">
+   <style>
+
+   body {
+     margin:0;
+   }
+
+  a
+  {
+    color:black;text-decoration: none;
+  }
+
+  #active {
+    color:red;
+  }
+
+
+
+  h1
+  {
+    font-size: 300%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+
+  h2, ol {
+    margin:0;
+    padding: 20px;
+    width: 100px;
+  }
+
+
+
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+
+    #article{
+      border-left: 1px solid gray;
+      padding:20px;
+      padding-top: 5px;
+    }
+
+    #font1{
+      color:pink;
+    }
+  </style>
+
 </head>
 <body>
-  <H1><a href="index.html">REDVELVET</a></H1>
-    <H2>MEMBER</H2>
-  <ol>
-    <li><a href="1.html">IRENE</a></li>
-    <li><a href="2.html">SEULGI</a></li>
-    <li><a href="3.html">WENDY</a></li>
-    <li><a href="4.html">JOY</a></li>
-    <li><a href="5.html">YERI</a></li>
-  </ol>
-<H2>JOY</H2 >
+  <H1><a href="index.html">RED VELVET</a></H1>
 
-<img src="joy.jpg" width="50%">
 
-<p>
-  SM엔터테인먼트의 아이돌 걸그룹 레드벨벳의 멤버이다.
+  <div id="grid">
+    <div>
+    <H2 id="font1">MEMBER</H2>
 
-  SM엔터테인먼트의 예비스타 프로그램인 SM Rookies를 통해 데뷔한 레드벨벳의 다른 멤버들과는 달리 '전통적인' 방식의 트레이닝을 거쳐 2년 6개월만에 데뷔했다. 데뷔 전에는 티저 사진 밖에 알려지지 않았던 비공개 멤버였다. 2014년에는 레드벨벳의 막내였고, 2015년 상반기에 예리가 레드벨벳에 합류하면서 막내 포지션에서 탈출했다.
-</p>
+
+      <strong><ol>
+        <li><a href="1.html">IRENE</a></li>
+        <li><a href="2.html" >SEULGI</a></li>
+        <li><a href="3.html" >WENDY</a></li>
+        <li><a href="4.html" id="active">JOY</a></li>
+        <li><a href="5.html">YERI</a></li>
+      </ol></strong>
+    </div>
+
+    <div id="article">
+        <strong><H3>JOY</H3></strong>
+
+        <img src="joy.jpg" width="300px;">
+
+        <p>
+          SM엔터테인먼트의 아이돌 걸그룹 레드벨벳의 멤버이다.
+
+          SM엔터테인먼트의 예비스타 프로그램인 SM Rookies를 통해 데뷔한 레드벨벳의 다른 멤버들과는 달리 '전통적인' 방식의 트레이닝을 거쳐 2년 6개월만에 데뷔했다. 데뷔 전에는 티저 사진 밖에 알려지지 않았던 비공개 멤버였다. 2014년에는 레드벨벳의 막내였고, 2015년 상반기에 예리가 레드벨벳에 합류하면서 막내 포지션에서 탈출했다.
+        </p>
+    </div>
+  </div>
+
+
 </body>
 </html>

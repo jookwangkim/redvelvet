@@ -1,26 +1,91 @@
 <!doctype html>
+
+
 <html>
 <head>
-  <title>REDVELVET - SEULGI</title>
-  <meta charset="utf-8>"
+  <title>RED VELVET - SEULGI</title>
+  <meta charset="utf-8">
+   <style>
+
+   body {
+     margin:0;
+   }
+
+  a
+  {
+    color:black;text-decoration: none;
+  }
+
+  #active {
+    color:red;
+  }
+
+
+
+  h1
+  {
+    font-size: 300%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+    margin:0;
+    padding:20px;
+  }
+
+  h2, ol {
+    margin:0;
+    padding: 20px;
+    width: 100px;
+  }
+
+
+
+    #grid{
+      display: grid;
+      grid-template-columns: 150px 1fr;
+    }
+
+    #article{
+      border-left: 1px solid gray;
+      padding:20px;
+      padding-top: 5px;
+    }
+
+    #font1{
+      color:pink;
+    }
+  </style>
+
 </head>
 <body>
-  <H1><a href="index.html">REDVELVET</a></H1>
-    <H2>MEMBER</H2>
-  <ol>
-    <li><a href="1.html">IRENE</a></li>
-    <li><a href="2.html">SEULGI</a></li>
-    <li><a href="3.html">WENDY</a></li>
-    <li><a href="4.html">JOY</a></li>
-    <li><a href="5.html">YERI</a></li>
-  </ol>
-<H2>SEULGI</H2>
+  <H1><a href="index.html">RED VELVET</a></H1>
 
-<img src="seulgi.jpg" width="50%">
 
-<p>
-  SM엔터테인먼트 걸그룹 레드벨벳의 멤버. 레드벨벳에서 유일하게 순우리말 본명이면서 본명으로 그룹 활동을 하는 멤버.
-  본인은 팀에서 카리스마를 맡고 있다고 주장하지만, 팬들에게나 같은 팀 멤버들, 또는 무대 아래서의 슬기 모습은 순한 곰돌이다. SMTOWN 일본 오사카 콘서트에서 슬기를 카리스마 쿠마쨩이라고 소개했다. 이는 거의 슬기의 캐릭터가 된 별명이다.
-</p>
+  <div id="grid">
+    <div>
+    <H2 id="font1">MEMBER</H2>
+
+
+      <strong><ol>
+        <li><a href="1.html">IRENE</a></li>
+        <li><a href="2.html" id="active">SEULGI</a></li>
+        <li><a href="3.html">WENDY</a></li>
+        <li><a href="4.html">JOY</a></li>
+        <li><a href="5.html">YERI</a></li>
+      </ol></strong>
+    </div>
+
+    <div id="article">
+        <strong><H3>SEULGI</H3></strong>
+
+        <img src="seulgi.jpg" width="300px;">
+
+        <p>
+          SM엔터테인먼트 걸그룹 레드벨벳의 멤버. 레드벨벳에서 유일하게 순우리말 본명이면서 본명으로 그룹 활동을 하는 멤버.
+          본인은 팀에서 카리스마를 맡고 있다고 주장하지만, 팬들에게나 같은 팀 멤버들, 또는 무대 아래서의 슬기 모습은 순한 곰돌이다. SMTOWN 일본 오사카 콘서트에서 슬기를 카리스마 쿠마쨩이라고 소개했다. 이는 거의 슬기의 캐릭터가 된 별명이다.
+        </p>
+    </div>
+  </div>
+
+
 </body>
 </html>
