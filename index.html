@@ -2,10 +2,48 @@
 <html>
 <head>
   <title>REDVELVET - WELCOME </title>
-  <meta charset="utf-8>"
+  <meta charset="utf-8">
+
+  <style>
+
+      h1
+        {
+          color:black;
+          text-decoration: none;
+          font-size: 300%;
+          text-align: center;
+          border-bottom: 1px solid gray;
+          margin:0;
+          padding:20px;
+          color:red;
+        }
+
+        .none {
+          color:black;
+          text-decoration: none;
+        }
+
+
+  </style>
+
+
 </head>
 <body>
-  <H1><a href="index.html">REDVELVET</a></H1>
+  <H1><a href="index.html">RED VELVET</a></H1>
+
+
+  <input type="button"  value="Day" onclick="
+  document.querySelector('body').style.backgroundColor='white';
+  document.querySelector('body').style.color='black';
+  ">
+
+  <input type="button"  value="Night" onclick="
+  document.querySelector('body').style.backgroundColor='black';
+  document.querySelector('body').style.color='white';
+  ">
+
+
+
   <H2>MEMBER</H2>
   <ol>
     <li><a href="1.html">IRENE</a></li>
@@ -27,7 +65,7 @@
 
 <H2>CONTACT US</H2>
 <p>
-  <a href="http://redvelvet.smtown.com/"
+  <a class="none" href="http://redvelvet.smtown.com/"
   target="_blank" title="redvelvet">REDVELVET OFFICIAL HOMEPAGE</a>
 </p>
 <img src="redvelvet.jpg" width="50%">

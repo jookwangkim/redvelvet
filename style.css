@@ -1,0 +1,55 @@
+body {
+  margin:0;
+}
+
+a
+{
+ color:black;text-decoration: none;
+}
+
+#active {
+ color:red;
+}
+
+
+
+h1
+{
+ font-size: 300%;
+ text-align: center;
+ border-bottom: 1px solid gray;
+ margin:0;
+ padding:20px;
+}
+
+h2, ol {
+ margin:0;
+ padding: 20px;
+ width: 100px;
+}
+
+
+
+ #grid{
+   display: grid;
+   grid-template-columns: 150px 1fr;
+ }
+
+ #article{
+   border-left: 1px solid gray;
+   padding:20px;
+   padding-top: 5px;
+ }
+
+ #font1{
+   color:pink;
+ }
+
+ @media(max-width:700px) {
+   #grid{
+     display: block;
+   }
+   #article{
+     border-left: none;
+   }
+ }
